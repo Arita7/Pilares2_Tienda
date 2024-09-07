@@ -1,19 +1,39 @@
 <html> <!--apertura-->
     <head> <!--Información de la página-->
-        <title> <!--Lo que se visualiza en el navegador-->
-            Mi primera página Web
-        </title>
+        <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tienda de Ropa</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
     </head>
     <body> <!--Primera etiqueta semántica-->
 	<header>
 		<h1> <!--Título de primera vez-->
-			Seccion 1 (Header)
+			Tienda de Ropa
 		</h1>
 	</header>
 	<main>
 	    <h2> <!--Subtítulos-->
 		Tienda de ropa
 	    </h2>
+		<br>
+		<img id="tienda_1" src="img/Tienda2.jpg" alt="icono de la tienda"/>
+		</br>
+		<br>
+		</br>
+		<p>
+	        <br>
+		El HTML semántico, también conocido como marcado semántico, engloba las etiquetas HTML que transmiten el significado (o semántica) de su contenido. Al añadir etiquetas HTML semánticas a tus páginas, proporcionas información adicional a los buscadores sobre la funcionalidad e importancia de las secciones de tus páginas. (A diferencia del HTML no semántico, que utiliza etiquetas que no transmiten directamente su significado).
+	        </br>
+	        <br>	    
+		    Las etiquetas HTML semánticas son etiquetas que definen el significado del contenido que engloban. Por ejemplo, etiquetas como &ltheader&gt, &ltarticle&gt y &ltfooter&gt son etiquetas HTML semánticas. Indican claramente la funcionalidad de su contenido. En cambio, etiquetas como <div> y <span> son ejemplos típicos de elementos HTML no semánticos. Aunque albergan contenido, no indican qué tipo de contenido contienen ni qué función desempeña esa pieza en la página.
+	        </br>
+	        <br>
+		Las etiquetas HTML semánticas no solo son más fáciles de leer y comprender por los buscadores y desarrolladores web, sino que son más accesibles para los lectores con deficiencias visuales y mejoran tu posicionamiento en los buscadores. Dentro de las etiquetas más importantes, estan:
+	        </br>
+		</p>
         <iframe type="text/html" width="640" height="360" src="https://www.youtube.com/embed/TJPoMLpzzuo?autoplay=1" frameborder="0"></iframe>
         <video width="640" height="360" controls poster ="img/Tienda.jpg">
             <source src="video/Tienda.mp4" type="video/mp4">
@@ -24,10 +44,10 @@
 		Ropa (footer)
 	    </h5>
 	    <a href="https://www.instagram.com/paulvandyk/">
-	    <img src="img/ig.jpg" alt="icono de red social"/>
+	    <img class="icono" src="img/ig.jpg" alt="icono de red social"/>
 	    </a>
 	    <a href="https://www.tiktok.com/en/">
-	    <img src="img/tiktok.jpg" alt="icono de red social2"/>
+	    <img class="icono" src="img/tiktok.jpg" alt="icono de red social2"/>
 	    </a>	
 	</footer>
     </body>
